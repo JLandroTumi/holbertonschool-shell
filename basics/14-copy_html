@@ -1,2 +1,2 @@
 #!/bin/bash
-for file in *.html do if [ $file -nt ../$file ] then cp $file ../$file fi done
+-rw-r--r-- 1 root root 0  /tmp/file_0.html

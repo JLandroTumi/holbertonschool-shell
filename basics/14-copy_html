@@ -1,2 +1,6 @@
 #!/bin/bash
-find . -maxdepth 1 -type f -name *.html -newer ../ -exec cp {} ../ \;
+for file in *.html; do
+	    if [ "$file" -nt "../$file" ]; then
+		            cp "$file" "../$file"
+			        fi
+			done

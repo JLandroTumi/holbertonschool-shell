@@ -1,2 +1,2 @@
 #!/bin/bash
-sudo chmod o=rw hello
+sudo chmod julien hello

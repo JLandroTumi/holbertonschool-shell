@@ -1,2 +1,2 @@
 #!/bin/bash
-sudo chmod a=rw hello
+sudo chmod o=rw hello
